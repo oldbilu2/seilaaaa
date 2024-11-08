@@ -1,0 +1,14 @@
+body {
+    background-position: fixed;
+    background-size: cover;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    display: block;
+    padding: 2px;
+    border: 1px solid;
+    border-radius: 80px;
+    border-color: blue;
+}

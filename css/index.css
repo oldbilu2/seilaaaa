@@ -1,0 +1,102 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://i.pinimg.com/originals/4c/b4/29/4cb4290f3bb50bc73347bb8f29bad7cb.gif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1.titulo {
+    font-style: italic;
+    background-image: url(https://i.pinimg.com/originals/20/f6/3a/20f63af1a58669d6eb486480fe923d12.gif);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: aliceblue;
+    display: inline-block;
+    padding: 6px;
+    border: 3px solid;
+    border-radius: 8px;
+    border-color: rgb(202, 0, 0);
+    width: fit-content; /* Ajusta o tamanho do h1 ao conteúdo */
+    margin: 0; /* Remove a margem do h1 */
+    margin-bottom: 50px;
+    box-shadow: 1px 1px 12px 5px red;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+    margin-top: 15px;
+}
+
+input {
+    width: 100px;
+    color: aliceblue;
+    width: 170px;
+    background-image: url(https://i.pinimg.com/originals/4c/2d/0f/4c2d0f7e2c89f437ebe6d0807fc562c8.gif);
+    display: inline-block;
+    padding: 8px;
+    border: 2px solid;
+    border-color: rgb(55, 0, 255);
+    border-radius: 8px;
+    padding: 18px;
+}
+
+input:focus {
+    outline: none; /* Remove o contorno padrão do navegador */
+    border: 2px solid #ff0000; /* Muda a cor da borda */
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.7); /* Adiciona uma sombra para destacar o campo */
+    transform: scale(1.05); /* Aumenta o tamanho do campo ligeiramente */
+    transition: all 0.3s ease; /* Adiciona uma animação suave para todos os efeitos */
+}
+
+.botao {
+    font-size: 25px;
+    color: aliceblue;
+    background-color: black;
+    width: 110px;
+    height: 50px;
+    display: inline-block;
+    padding: 2px;
+    border: 3px solid;
+    border-color: green;
+    border-radius: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition:  0.3s ease
+}
+
+.botao:hover {
+    transform: scale(1.1); /* Aumenta o tamanho do botão quando o mouse passa por cima */
+    background-color: #00e70c; /* Altera a cor de fundo */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra suave */
+}
+
+img {
+    border-radius: 150px;
+    width: 120px;
+    margin-top: 50px;
+    display: inline-block;
+    padding: 2px;
+    border: 5px solid;
+    border-color: brown;
+    border-radius: 150px;
+}
+
+p {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 2px;
+    border: 2px solid;
+    border-color: #ff0000;
+    background-image: url(https://i.pinimg.com/originals/6c/53/5a/6c535aee2ec68147f16958d34bcb0f2c.gif);
+    background-position: center;
+}

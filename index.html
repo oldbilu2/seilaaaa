@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/index.css"> <!-- Link para o CSS externo -->
+</head>
+
+<body>
+    <h1 class="titulo">Login</h1>
+    <div class="form-container">
+        <label for="usuario">Usuário:</label>
+        <input type="text" id="usuario" class="input-text" placeholder="Digite seu nome de usuário" />
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" class="input-text" placeholder="Digite sua senha" />
+    </div>
+    
+        <button id="login" class="botao">Entrar</button>
+    </div>
+
+    <footer id="footer">
+        <div class="footer-content">
+            <img src="https://i.pinimg.com/originals/03/f9/c9/03f9c952418ae59bf3a46efa83717710.gif" alt="Ícone" class="footer-img">
+            <p class="footer-text">Feito por Bilu</p>
+        </div>
+    </footer>
+
+    <script>
+        // Evento para o botão de login
+        document.getElementById('login').addEventListener('click', () => {
+            const usuario = document.getElementById('usuario').value;
+            const senha = document.getElementById('senha').value;
+
+            // Checa se o usuário e senha estão preenchidos
+            if (usuario && senha) {
+                // Redireciona para a página do portfólio (substitua com a URL desejada)
+                window.location.href = `inicial.html?nome=${encodeURIComponent(usuario)}&descricao=&banner=`;
+            } else {
+                alert('Por favor, preencha todos os campos.');
+            }
+        });
+    </script>
+</body>
+
+</html>
